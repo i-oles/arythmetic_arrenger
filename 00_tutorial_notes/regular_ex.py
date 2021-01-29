@@ -17,7 +17,7 @@ $           matches the end of the line
 )          indicates where string extraction is to start
 
 """
-sentence = ['abrakadabra', '5370', 'alakazammm']
+sentence = ['abrakadabra', '123', '!!']
 for line in sentence:
     # re.search returns true or false
     if re.search('^abra', line):
